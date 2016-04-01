@@ -1,5 +1,5 @@
 <h3>Hello</h3>
 
-{{#each model as |question|}}
-  {{question.name}}
+{{#each model.question as |question|}}
+  {{question-tile question=question}}
 {{/each}}
