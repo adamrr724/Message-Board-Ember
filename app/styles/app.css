@@ -2,6 +2,10 @@ body {
   background-color: #dbdbdb;
 }
 
+* {
+font-family: 'Nobile', sans-serif;
+}
+
 .logo {
   height: 6em;
   padding-left: 1em;
