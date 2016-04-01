@@ -1,1 +1,14 @@
-{{yield}}
+{{#each question.answers as |answer|}}
+  <div class="">
+    <div class="row">
+      <div class="col-md-4">
+        <h4>{{answer.name}}</h4>
+
+      </div>
+      <div class="col-md-8">
+        <h5>Answer:</h5>
+        <p>{{answer.content}}</p>
+      </div>
+    </div>
+  </div>
+  {{/each}}
