@@ -1,0 +1,18 @@
+{{#if editQuestion}}
+<form>
+  <label for="name">Name</label>
+  {{input value=question.name id="updateName" placeholder=question.name}}
+
+  <label for="content">Content</label>
+  {{textarea rows="10" cols="100" value=question.content id="updateContent" placeholder=question.content}}
+
+  <label for="image">Image URL</label>
+  {{input value=question.image id="updateImage" placeholder=question.image}}
+
+  <button {{action 'saveQuestion' question}}class="btn btn-lg btn-success" type="button" name="button">Save Question</button>
+  <button {{action 'hideQuestion'}}class="btn btn-lg btn-warning" type="button" name="button">Hide</button>
+</form>
+{{else}}
+  <h3>{{question.name}}</h3>
+  <button class="btn btn-primary"{{action 'editQuestion'}}>Update</button>
+{{/if}}

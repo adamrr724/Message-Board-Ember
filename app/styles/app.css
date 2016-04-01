@@ -72,4 +72,5 @@
 button {
   box-shadow: 2.5px 2.5px grey, 1px 0px 2px grey;
   text-shadow: 1px 1px 3px black;
+  margin: 5px;
 }

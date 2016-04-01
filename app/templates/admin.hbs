@@ -11,7 +11,7 @@
       <h4>Edit Existing Questions</h4>
       <hr>
       {{#each model as |question|}}
-        <!-- {{edit-question question=question saveQuestion2="saveQuestion3"}} -->
+        {{edit-question question=question saveQuestion2="saveQuestion3"}}
         <button class="btn btn-danger delete__button"{{action 'delete' question}} type="button" name="button">Delete</button>
       {{/each}}
     </div>
