@@ -1,0 +1,10 @@
+<form class="">
+  <label for="name">Name</label>
+  {{input value=name id="name"}}
+
+  <label for="content">Answer</label>
+  {{input value=content id="content"}}
+
+  <br>
+  <button {{action 'addNewAnswer'}}class="btn btn-lg btn-success" type="button" name="button">Answer Question</button>
+</form>
