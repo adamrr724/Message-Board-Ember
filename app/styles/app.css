@@ -1,16 +1,27 @@
+body {
+  background-color: #dbdbdb;
+}
+
 .logo {
   height: 6em;
   padding-left: 1em;
   padding-top: 1em;
+  -webkit-filter: drop-shadow(5px 5px 5px #dbdbdb);
+  filter: drop-shadow(5px 5px 5px #dbdbdb);
 }
 
 .jumbotron {
+  background-image: url('http://content.wallpapers-room.com/resolutions/1440x900/R/Wallpapers-room_com___Request_Grey_by_chiwou_1440x900.jpg');
+  background-size: cover;
   padding-top: 0;
   margin-top: 0;
+  border-bottom: outset;
 }
 
 .jumbotron h1 {
   text-align: center;
+  color: #dbdbdb;
+  text-shadow: 1.5px 1.5px 3px black;
 }
 
 .nav-link {
@@ -20,6 +31,8 @@
    padding-right: 2em;
    font-weight: bold;
    list-style: none;
+   color: #dbdbdb;
+   text-shadow: 1.5px 1.5px 3px black;
 
 }
 

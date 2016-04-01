@@ -1,1 +1,13 @@
-{{yield}}
+<form class="new-question">
+    <label for="name">Name:</label>
+    {{input value=name id="name"}}
+<br>
+    <label for="content">Content:</label>
+<br>
+    {{textarea rows="10" cols="60" value=content id="content" placeholder=question.content}}
+<br>
+    <label for="image">Image URL:</label>
+    {{input value=image id="image" placeholder=question.image}}
+    <br>
+    <button {{action 'addNewQuestion'}}class="btn btn-lg btn-success" type="button" name="button">Save Question</button>
+  </form>
