@@ -46,3 +46,14 @@
   height: auto;
   margin-bottom: 5px;
 }
+
+.question-image {
+  max-height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.question-content {
+  text-align: center;
+}
