@@ -54,8 +54,22 @@
   margin-left: auto;
   margin-right: auto;
   display: block;
+  box-shadow: 2.5px 2.5px grey, 1px 0px 2px black;
 }
 
 .question-content {
   text-align: center;
+}
+
+.answer-tile {
+  box-shadow: 2.5px 2.5px grey, 1px 0px 2px grey;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+button {
+  box-shadow: 2.5px 2.5px grey, 1px 0px 2px grey;
+  text-shadow: 1px 1px 3px black;
 }
