@@ -1,7 +1,6 @@
-# Message-board
+# Message-board App
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This application lets users post questions and then receive answers to the questions they post.
 
 ## Prerequisites
 
@@ -11,11 +10,10 @@ You will need the following things properly installed on your computer.
 * [Node.js](http://nodejs.org/) (with NPM)
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone <https://github.com/adamrr724/Message-Board-Ember.git>` this repository
 * change into the new directory
 * `npm install`
 * `bower install`
@@ -24,30 +22,51 @@ You will need the following things properly installed on your computer.
 
 * `ember server`
 * Visit your app at [http://localhost:4200](http://localhost:4200).
+* Enter a question or answer a question on the page
 
-### Code Generators
 
-Make use of the many generators for code, try `ember help generate` for more details
+## Known Bugs
 
-### Running Tests
+No known bugs.
 
-* `ember test`
-* `ember test --server`
 
-### Building
+## Support and contact details
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+Please contact adamrr724@yahoo.com with any technical difficulties.
 
-### Deploying
+## Technologies Used
 
-Specify what it takes to deploy your app.
+This webpage uses:
 
-## Further Reading / Useful Links
+Javascript
+Ember
+HTML
+Bootstrap
+npm
+bower
+Firebase
 
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+### Legal
+
+Copyright (c) 2016 **Epicodus**
+
+This software is licensed under the MIT license.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
