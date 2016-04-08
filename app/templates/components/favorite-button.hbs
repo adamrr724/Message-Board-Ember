@@ -1,0 +1,5 @@
+{{#if favoriteAdded}}
+<h5>Added to Favorites!</h5>
+{{else}}
+<button {{action 'addToFavorites' question}} type="button">Add to Favorites</button>
+{{/if}}

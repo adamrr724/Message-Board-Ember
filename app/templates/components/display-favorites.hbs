@@ -1,0 +1,12 @@
+{{#each favorites.favorites as |question|}}
+  <div class="col-md-4 question-tile">
+    <div class="row">
+      <h3>{{question.content}}</h3>
+      <h5>from {{question.name}}</h5>
+      <div class="">
+        <img class="question-tile-image" src="{{question.image}}" alt="image" />
+        <button class="btn btn-success" {{action 'remove' question}}>Remove from Favorites</button><br>
+      </div>
+    </div>
+  </div>
+{{/each}}

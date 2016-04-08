@@ -2,6 +2,7 @@
   <div class="question-content">
     <h2>{{model.content}}</h2>
     <h6>Asked by: {{model.name}}</h6>
+    {{favorite-button question=model}}
   </div>
   <div>
     <img class="question-image" src="{{model.image}}" alt="" />
