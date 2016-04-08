@@ -135,3 +135,7 @@ button {
   padding-left: 3px;
   max-width: 85%;
 }
+
+.btn-primary, .btn-success {
+  margin-bottom: 10px;
+}
