@@ -94,8 +94,44 @@ button {
 
 #likes {
   color: green;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 3px;
+  display: inline-flex;
 }
 
 #dislikes {
   color: red;
+  font-size: 18px;
+  margin-left: 5px;
+  margin-right: 3px;
+  display: inline-flex;
+}
+
+.popularity {
+  text-shadow: .25px .25px .5px black;
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.answer-popularity {
+  display: inherit;
+  width:70%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  margin-left: 25px;
+  font-weight: bold;
+}
+
+.content-box {
+  border: 1px solid lightgrey;
+  background-color: #e9e9e9;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  max-width: 85%;
 }

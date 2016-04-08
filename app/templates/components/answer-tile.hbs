@@ -3,14 +3,15 @@
     <div class="row">
       <div class="col-md-12">
         <h4>{{answer.name}} Answered:</h4>
-        <br>
-        <p>{{answer.content}}</p>
+        <p class="content-box">{{answer.content}}</p>
       </div>
-      <button {{action 'addLike' answer}} type="button">Like</button>
-      <p id="likes">{{like-counter answer.likes}}</p>
-      <button {{action 'addDislike' answer}} type="button">Dislike</button>
-      <p id="dislikes">{{dislike-counter answer.dislikes}}</p>
-      {{highest-rated answer.likes answer.dislikes}}
+      <div class="answer-popularity">
+        <button class="popularity" {{action 'addLike' answer}} type="button">Like</button>
+        <p id="likes">{{like-counter answer.likes}}</p>
+        <button class="popularity" {{action 'addDislike' answer}} type="button">Dislike</button>
+        <p id="dislikes">{{dislike-counter answer.dislikes}}</p>
+        <p class="rating">{{highest-rated answer.likes answer.dislikes}}</p>
+    </div>
     </div>
   </div>
   {{/each}}
