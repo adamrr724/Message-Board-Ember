@@ -1,5 +1,6 @@
 {{#if favorites.favorites.length}}
 {{#each favorites.favorites as |question|}}
+{{#link-to 'question' question.id}}
 <div class="col-md-4 question-tile">
   <div class="row">
     <h3>{{question.content}}</h3>
@@ -10,6 +11,7 @@
     </div>
   </div>
 </div>
+{{/link-to}}
 {{/each}}
 {{else}}
 <h3>No Favorites Added Yet</h3>
