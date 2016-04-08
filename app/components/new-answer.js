@@ -6,9 +6,10 @@ export default Ember.Component.extend({
       var params = {
         name: this.get('name'),
         content: this.get('content'),
-        question: this.get('question')
+        question: this.get('question'),
+        likes: 0,
+        dislikes: 0
       };
-      console.log(params);
       this.sendAction('addNewAnswer2', params);
       this.set('name', '');
       this.set('content', '');

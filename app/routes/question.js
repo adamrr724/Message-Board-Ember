@@ -13,6 +13,18 @@ export default Ember.Route.extend({
         return question.save();
       });
       this.transitionTo('question', params.question);
+    },
+    addLike3(answer) {
+      var currentValue = answer.get('likes');
+      var total = currentValue += 1;
+      answer.set('likes', total);
+      answer.save();
+    },
+    addDislike3(answer) {
+      var currentValue = answer.get('dislikes');
+      var total = currentValue += 1;
+      answer.set('dislikes', total);
+      answer.save();
     }
   }
 });

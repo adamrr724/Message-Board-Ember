@@ -91,3 +91,11 @@ button {
   text-shadow: 1px 1px 3px black;
   margin: 5px;
 }
+
+#likes {
+  color: green;
+}
+
+#dislikes {
+  color: red;
+}
