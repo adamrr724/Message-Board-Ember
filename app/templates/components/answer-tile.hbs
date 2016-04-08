@@ -1,3 +1,5 @@
+{{#if sortedAnswers}}
+<h6>Sorted by most likes:</h6>
 {{#each sortedAnswers as |answer|}}
   <div class="answer-tile">
     <div class="row">
@@ -15,3 +17,6 @@
     </div>
   </div>
   {{/each}}
+  {{else}}
+  <h3>No answers have been provided yet.</h3>
+  {{/if}}
